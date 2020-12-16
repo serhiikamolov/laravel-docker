@@ -11,7 +11,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./docker/nginx/laravel.conf:/etc/nginx/conf.d/default.conf:cached
+      - ./.docker/nginx/laravel.conf:/etc/nginx/conf.d/default.conf:cached
       - ./:/code:delegated
 
   php-fpm:
