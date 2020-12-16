@@ -1,0 +1,17 @@
+{
+    "name": "serhiikamolov/laravel-docker",
+    "description": "Docker files for running a basic Laravel application.",
+    "keywords": ["laravel", "docker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serhii Kamolov",
+            "email": "serhii.kamolov@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
